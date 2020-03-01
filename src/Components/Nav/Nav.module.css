@@ -1,0 +1,25 @@
+.nav{
+    grid-area: n;
+    background-color: #e9ebee;
+}
+.items_list{
+    color:#1d2129;
+    list-style-type: none;
+    text-decoration: none;
+}
+.items_list li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.items_list li a.activeLink{
+    color: salmon;
+    font-weight: 600;
+}
+.items_list li a:hover{
+    font-weight: 600;
+}
+.items_list li:last-child{
+    margin-top: 50px;
+}
