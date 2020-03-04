@@ -1,0 +1,10 @@
+.ProfileImage{
+    width: 100%;
+    height: 200px;
+}
+.ProfileImage img{
+    width: inherit;
+    height: inherit;
+}
+
+

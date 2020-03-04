@@ -1,6 +1,7 @@
 .dialogs{
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     line-height: 15px;
     display: grid;
     grid-template-columns: 2fr 10fr;
@@ -12,11 +13,23 @@
     font-weight: 600;
 }
 .item{
-
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.item a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+.item a:hover{
+    opacity: .8;
 }
 .dialogMessages{
-
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 50px;
 }
-.messages{
-
-}
+.message{
+    padding: 4px}

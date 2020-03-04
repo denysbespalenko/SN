@@ -1,4 +1,13 @@
+.MyPosts{
+    margin-left: 20px;
+}
 .Button{
-    color: #000000;
-    background-color: yellowgreen;
+    display: block;
+    font-weight: 400;
+}
+.Button:hover{
+    box-shadow: 2px 2px 2px 2px #000;
+}
+.MessagesBlock{
+    margin-top: 20px;
 }
